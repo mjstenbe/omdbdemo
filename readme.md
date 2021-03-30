@@ -10,6 +10,13 @@ Showing sample use of:
 - Bootstrap
 - HTML5 form validation
 
-The app is running in Heroku at: xxx
+The app is running in Netlify at: xxx
 To be resolved:
 When adding event listened dynamically, the app loses the browser validation capability?
+
+```
+var btn = document.getElementById(“search”);
+btn.addEventListener(“onclick”, function (event) {
+getMovies(event);
+});
+```
