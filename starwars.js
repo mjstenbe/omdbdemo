@@ -13,7 +13,7 @@ function getMovies(e) {
   el.reportValidity();
   // Query the data
   $.get(
-    `http://www.omdbapi.com/?s=${st}&apikey=cbbc6750`,
+    `https://www.omdbapi.com/?s=${st}&apikey=cbbc6750`,
     function (data, status) {
       // Check for errors in response
       if (data.Response == "False") {
