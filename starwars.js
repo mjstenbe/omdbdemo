@@ -57,7 +57,7 @@ function searchBar() {
   <div class="container mb-5" style="margin-top: 20px">
     <form id="dataform">
       <div class="form-group row">
-        <label class="col-sm-2 col-form-label">Haje tästä: </label>
+        <label class="col-sm-2 col-form-label">Search for: </label>
         <div class="col-sm-9">
           <input type="text" class="form-control" id="searchterm" minlength="3" required/>
         </div>
